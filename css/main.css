@@ -24,12 +24,20 @@ p {
     line-height: 1.4em;
     color:white;
 }
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    text-decoration: underline;
+}
 .social-icons {
     max-width: 980px;
     margin: 0 auto;
 }
 
-.icon {
+.icon 
+{
     float: left;
     position: relative;
     width: 12%;
@@ -37,93 +45,74 @@ p {
     margin: 1% 0.5%;
     padding-bottom: 12%;
 
-    @media all and (min-width: 640px) {
-        width: 9%;
-        padding-bottom: 9%;
-    }
-
-    &:last-of-type {
-        margin-right: 0;
-    }
-}
-    a {
-        display: block;
-        position: absolute;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border: 0;
-        border-radius: 10px;
-        background-color: #fff;
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-position: center center;
-        transition: all .2s ease-out;
-
-        &:hover {
-            background-color: #222;
-            background-size: 0%;
-            transition: all .2s ease-out;
+    @media all and (min-width: 640px) 
+        {
+            width: 9%;
+            padding-bottom: 9%;
         }
-    }
 
-
-.icon__name {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    margin-top: -7px;
-    color: #fff;
-    font-size: 13px;
-    text-align: center;
-  
-    transition: all .3s ease-out;
-    opacity: 0;
-    filter: blur(25px);
-    transform: translateZ(0);
-    will-change: transform;
+    &:last-of-type 
+        {
+            margin-right: 0;
+        }
 }
-    .icon:hover & {
-        transition: all .3s ease-out;
-        opacity: 1;
-        filter: blur(0);
-    }
+    b 
+        {
+            display: block;
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+            border-radius: 10px;
+            background-color: #fff;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: center center;
+            transition: all .2s ease-out;
 
+            &:hover 
+            {
+                background-color: #222;
+                background-size: 0%;
+                transition: all .2s ease-out;
+            }
+        }
 
 
 // Customise Icons
 
-.icon--facebook a {
+.icon--facebook b {
     background-color: #3B5998;
     background-image: url('https://simpleicons.org/icons/facebook.svg');
 }
 
-.icon--twitter a {
+.icon--twitter b {
     background-color: #1DA1F2;
     background-image: url('https://simpleicons.org/icons/twitter.svg');
 }
 
-.icon--linkedin a {
+.icon--linkedin b {
     background-color: #0077B5;
     background-image: url('https://simpleicons.org/icons/linkedin.svg');
 }
 
-.icon--instagram a {
+.icon--instagram b {
     background-color: #5c3d2e;
     background-image: url('https://simpleicons.org/icons/instagram.svg');
 }
 
-.icon--github a {
+.icon--github b {
     background-color: #4183c4;
     background-image: url('https://simpleicons.org/icons/github.svg');
 }
 
-.icon--google a {
+.icon--google b {
     background-color: #DC4E41;
     background-image: url('https://simpleicons.org/icons/googleplus.svg');
 }
 
-.icon--youtube a {
+.icon--youtube b {
     background-color: #CD201F;
     background-image: url('https://simpleicons.org/icons/youtube.svg');
 }
