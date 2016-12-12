@@ -45,7 +45,7 @@ p {
     &:last-of-type {
         margin-right: 0;
     }
-
+}
     a {
         display: block;
         position: absolute;
@@ -66,7 +66,7 @@ p {
             transition: all .2s ease-out;
         }
     }
-}
+
 
 .icon__name {
     position: absolute;
@@ -82,13 +82,13 @@ p {
     filter: blur(25px);
     transform: translateZ(0);
     will-change: transform;
-  
+}
     .icon:hover & {
         transition: all .3s ease-out;
         opacity: 1;
         filter: blur(0);
     }
-}
+
 
 
 // Customise Icons
