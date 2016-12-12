@@ -32,10 +32,10 @@ p {
 .icon {
     float: left;
     position: relative;
-    width: 19%;
+    width: 12%;
     height: 0;
     margin: 1% 0.5%;
-    padding-bottom: 19%;
+    padding-bottom: 12%;
 
     @media all and (min-width: 640px) {
         width: 9%;
